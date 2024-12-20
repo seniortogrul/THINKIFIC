@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+.layout{
+    width: 100%;
+    min-height: 100vh;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 375px;
+    border-bottom: 1px solid #eef0f5;
+    height: 72px;
+    width: 100%;
+    padding: 8px 55px;
+}
+
+.headleft {
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid; */
+    align-items: center;
+}
+.headleft h3{
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* width: 450px; */
+}
+nav ul{
+    list-style: none;
+    width: 450px;
+    display: flex;
+    justify-content: space-around;
+
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 25px 15px;  
+    transition: 1s;
+    border-bottom: 2px solid rgba(0, 0, 255, 0);
+}
+nav a:hover{
+    border-bottom: 2px solid blue;
+}
+.headright{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+.sign{
+    width: 100px;
+    height: 50px;
+    border: 1px solid #caccd6;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 600;
+    color: #344054;
+}
+.trial{
+    width: 200px;
+    height: 50px;
+    background-color: #3561ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+
+}
+.sec1{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid; */
+}
+.sec1top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.sec1topleft{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* gap: 25px   ; */
+    width: 600px;
+    height: 428px;
+    /* border: 1px solid; */
+    padding: 28px 28px 0;
+}
+.pink{
+    color: #ff4aa9;
+    
+}
+.sec1topleft h1{
+    font-size: 55px;
+}
+.sec1topleft p{
+    font-size: 20px;
+    line-height: 25px;
+}
+.sec1topleft button{
+    width: 270px;
+    height: 55px;
+    font-weight: 600;
+    color: white;
+    background-color: #3561ff;
+    border: none;
+    border-radius: 40px;
+    font-size: 18px;
+    border: 1px solid blue;
+     animation-duration: 2s;
+}
+.sec1topleft button:hover{
+    background-color: white;
+    color: blue;
+}
+.sec1topright{
+width: 630px;
+height: 370px;
+}
+.sec1topright video{
+    border-radius: 250px 0 0 250px;
+object-fit: cover;}
+
+.sec1bottom{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+    width: 100%   ;
+    max-width:1440px ;             ;
+}
+.sec1item {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:0px 20px;
+    /* border: 1px solid; */
+}
+.border{
+    border-right: 1px solid #c5c5c5;
+}
+.sec1item h3{
+    color: #fd612a;
+    font-size: 24px;
+}
+.sec1item h1{
+    font-size: 52px;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 8px 55px;
+}
+.sec2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.sec2main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1440px;
+    padding: 80px 80px 0 80px;
+}
+.sec2left{
+    position: relative;
+    flex-grow: 1;
+}
+.sec2left2{
+    position: sticky;
+    top: 30%;
+   
+}
+.sec2left2 p{
+    font-size: 42px;
+}
+.sec2left2 button{
+    border: 1px solid #467dff;
+    width: 200px;
+    height: 48px;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.sec2left button:hover{
+    background-color:#467dff ;
+    color: white;
+    cursor: pointer;
+}
+.sec2right{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 170px;
+}
+.sec2item video{
+    border: 6px solid;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.sec2item{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.sec2item p {
+    font-size: 38px;
+}
+.sec2item strong{
+    color: #ff4aa9;
+}
+.sec2rightcards{
+    display: flex;
+    flex-direction: column;
+}
+.sec2rightcard{
+    display: flex;
+    align-items: center;
+
+}
+.sec2rightcard i{
+ min-width: 60px;
+ height: 60px;
+ background-color: #ffebf5;
+ text-align: center;
+ line-height: 60px;
+ border-radius: 40px;
+ color: #ff72bc;
+}
+.sec2rightcard p{
+    font-size: 18px;
+}
+/* Responsive */
+
+
+@media (max-width:900px){
+    
+}
